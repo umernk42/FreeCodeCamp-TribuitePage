@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+    line-height: 1.4rem;
+    color: #333;
+}
+
+.whole_page {
+  margin: 20px 10px;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding: 20px 0;
+  line-height: 2rem;
+}
+
+h2{
+    line-height: 1.7rem;
+}
+
+header p {
+  padding-bottom: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+main figure {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main figure figcaption {
+  margin: 15px 0 10px;
+}
+
+main .tribute-info {
+  margin: 40px 0 55px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+main ul {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+main ul li {
+  margin-bottom: 10px;
+}
+
+main .block_quote {
+  width: 50%;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+main .block_quote p {
+  padding: 10px 0;
+}
